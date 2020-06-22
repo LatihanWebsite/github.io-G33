@@ -11,8 +11,7 @@ a {
   width:1170px;
   padding-left:15px;
   padding-right:15px;
-  margin-left:auto;
-  margin-right:auto;
+  margin:auto;
 }
 
 .top-wrapper{
@@ -21,3 +20,186 @@ a {
   color:white;
   background-image:url(https://raw.githubusercontent.com/LatihanWebsite/github.io-G33/master/Atas.png);
   background-size:cover;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2{
+  opacity: 0.9;
+  font-size: 23px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:24px;
+  padding-right:24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.daftar{
+  background-color:#fc5c65;
+}
+
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.btn-wrapper {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.btn-wrapper p{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.fa{
+  margin-right: 10px;
+}
+
+header{
+  height:65px;
+  width:100%;
+  background-color:rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+
+.logo{
+  width: 70px;
+  margin-top:10px;
+}
+
+.header-left{
+  float: left;
+}
+
+/* masih belom bener Loginnya */
+
+.header-right{
+  float:right;
+  background-color:rgba(255, 255, 255, 0);
+  transition:all 0.5s;
+}
+
+.header-right:hover{
+  background-color:rgba(34, 49, 52, 0.5);
+}
+
+.header-right a{
+  line-height:65px;
+  padding:0 25px;
+  color:black;
+  display:block;
+}
+
+.header-right a:hover{
+  line-height:65px;
+  padding:0 25px;
+  color:white;
+  display:block;
+}
+
+.lesson-wrapper{
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top:60px;
+  padding-bottom:30px;
+  color:#5f5d60;
+}
+
+.heading h2{
+  font-weight:normal;
+}
+
+.lessons{
+  float:left;
+  width: 25% ;
+}
+
+.lesson-icon{
+  position: relative;
+}
+
+.txt-contents{
+  width: 80%;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 20px
+  color:#b3aeb5;
+}
+
+.lesson-icon p{
+  position:absolute;
+  color: white;
+  width: 100%;
+  top:75px;
+}
+
+.message-wrapper{
+  border-bottom:1px solid #eee;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.message{
+  background-color:#fc5c65;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  cursor: pointer;
+  box-shadow:0px 7px #eb3b5a;
+}
+
+.heading h3{
+  font-weight: normal;
+}
+
+.message:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer img{
+  width:125px;
+}
+
+footer p{
+  color:#b3aeb5;
+  font-size:12px;
+  margin: 0px;
+}
+
+footer{
+  padding-top:30px;
+}
