@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "poppins";
@@ -5,6 +9,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.clear{
+  clear:left;
 }
 
 .animasi-teks {
@@ -25,10 +33,9 @@ a {
 }
 
 .container{
-  width:1170px;
-  padding-left:15px;
-  padding-right:15px;
-  margin:auto;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .top-wrapper{
@@ -63,6 +70,7 @@ a {
   display:inline-block;
   opacity:0.8;
   border-radius: 4px;
+  text-align: center;
 }
 
 .btn:hover{
@@ -119,7 +127,6 @@ header{
 .header-right{
   float:right;
   background-color:rgba(255, 255, 255, 0);
-  transition:all 0.5s;
 }
 
 .header-right:hover{
@@ -131,18 +138,19 @@ header{
   padding:0 25px;
   color:black;
   display:block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right a:hover{
-  line-height:65px;
-  padding:0 25px;
   color:white;
   display:block;
 }
 
 .lesson-wrapper{
-  height: 500px;
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
 }
@@ -157,7 +165,7 @@ header{
   font-weight:normal;
 }
 
-.lessons{
+.lesson{
   float:left;
   width: 25% ;
 }
@@ -169,8 +177,8 @@ header{
 .txt-contents{
   width: 80%;
   display: inline-block;
-  font-size: 10px;
-  margin-top: 20px
+  font-size: 15px;
+  margin-top: 15px
   color:#b3aeb5;
 }
 
@@ -178,7 +186,7 @@ header{
   position:absolute;
   color: white;
   width: 100%;
-  top:75px;
+  top:35%;
 }
 
 .message-wrapper{
@@ -212,12 +220,13 @@ footer img{
 }
 
 footer p{
-  color:#b3aeb5;
+  color:#fff;
   font-size:12px;
   margin: 0px;
 }
 
 footer{
-  padding-top:30px;
-  background-color:#4b6584;
+  padding-top:20px;
+  background-color: #2bcbba;
+  padding-bottom: 20px;
 }
