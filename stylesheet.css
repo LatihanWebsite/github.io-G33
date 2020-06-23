@@ -15,7 +15,7 @@ a {
   clear:left;
 }
 
-.animasi-teks {
+/*.animasi-teks {
   font-size: 29px;
   width: 100%;
   white-space:nowrap;
@@ -30,18 +30,17 @@ a {
 
 @-webkit-keyframes animasi-ketik{
   from { width: 0; }
-}
+} **/
 
 .container{
   max-width: 1170px;
-  width:100%;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper{
-  padding-top:180px;
-  padding-bottom:100px;
+  padding:180px 0 100px 0;
   color:white;
   background-image:url(https://raw.githubusercontent.com/LatihanWebsite/github.io-G33/master/Atas.png);
   background-size:cover;
@@ -63,10 +62,7 @@ a {
 }
 
 .btn{
-  padding-top:12px;
-  padding-bottom:12px;
-  padding-left:24px;
-  padding-right:24px;
+  padding: 12px 24px;
   color:white;
   display:inline-block;
   opacity:0.8;
@@ -92,8 +88,8 @@ a {
 }
 
 .btn-wrapper {
-  margin-top:20px;
-  margin-bottom:20px;
+  text-align: center;
+  margin:20px 0;
 }
 
 .btn-wrapper p{
@@ -176,7 +172,7 @@ header{
 
 .lesson{
   float:left;
-  width: 25% ;
+  width: 25%;
 }
 
 .lesson-icon{
@@ -187,7 +183,7 @@ header{
   width: 80%;
   display: inline-block;
   font-size: 15px;
-  margin-top: 15px
+  margin-top: 15px;
   color:#b3aeb5;
 }
 
@@ -195,7 +191,7 @@ header{
   position:absolute;
   color: white;
   width: 100%;
-  top:35%;
+  top:44%;
 }
 
 .message-wrapper{
