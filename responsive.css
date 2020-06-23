@@ -1,4 +1,4 @@
-@media (max-width:1000px ) {
+@media all and (max-width: 1000px) {
   .lesson{
     width: 50%;
     margin-bottom: 50px;
@@ -11,14 +11,15 @@
   }
 }
 
-@media (max-width:670px ) {
+@media all and (max-width: 670px) {
   .lesson{
    width:100%;
   }
 
   footer{
-  text-align:center;
+  text-align: center;
   }
+
   .btn{
     width:100%;
   }
@@ -29,7 +30,6 @@
 
   .top-wrapper{
     text-align:left;
-    padding-top:130px;
   }
 
   .header-right{
