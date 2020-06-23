@@ -14,8 +14,8 @@ a {
 .clear{
   clear:left;
 }
-
-/*.animasi-teks {
+/*
+.animasi-teks {
   font-size: 29px;
   width: 100%;
   white-space:nowrap;
@@ -30,7 +30,7 @@ a {
 
 @-webkit-keyframes animasi-ketik{
   from { width: 0; }
-} **/
+}*/
 
 .container{
   max-width: 1170px;
@@ -145,11 +145,11 @@ header{
 }
 
 .menu-icon {
-  color: white;
+  color: black;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display:none;
+  display: none;
 }
 
 .lesson-wrapper{
@@ -191,7 +191,7 @@ header{
   position:absolute;
   color: white;
   width: 100%;
-  top:44%;
+  top:35%;
 }
 
 .message-wrapper{
