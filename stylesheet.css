@@ -14,7 +14,7 @@ a {
 .clear{
   clear:left;
 }
-/*
+
 .animasi-teks {
   font-size: 29px;
   width: 100%;
@@ -30,7 +30,7 @@ a {
 
 @-webkit-keyframes animasi-ketik{
   from { width: 0; }
-}*/
+}
 
 .container{
   max-width: 1170px;
